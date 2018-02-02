@@ -115,7 +115,7 @@ function displayProfile(newUserProfile) {
 	var newUserColor = document.getElementById("userColor")
 
 	// changing the text in the elements to say the user input
-	newUserName.innerText = "Welcome to your new profile " + newUserProfile.name
+	newUserName.innerText = "Welcome to your new profile " + newUserProfile.name + "!"
 	newUserGender.innerText = "Gender: " + newUserProfile.gender
 	newUserEmail.innerText = "Email: " + newUserProfile.email
 	newUserPhone.innerText = "Phone Number: " + newUserProfile.phone
