@@ -33,7 +33,7 @@ function getUserInfo() {
 		// Adding classes to the inputs if the user fails to enter required information
 		userEmailInput.className = "failure"
 		// updating the text content of the input box
-		userEmail.placeholder = "Please enter your email!"
+		userEmailInput.placeholder = "Please enter your email!"
 	}
 	// FIRST NAME making sure the user puts info in the input box
 	console.log(phone)
@@ -41,7 +41,7 @@ function getUserInfo() {
 		// Adding classes to the inputs if the user fails to enter required information
 		userPhoneInput.className = "failure"
 		// updating the text content of the input box
-		userPhone.placeholder = "Please enter your phone number!"
+		userPhoneInput.placeholder = "Please enter your phone number!"
 		
 	}
 	// GENDER
