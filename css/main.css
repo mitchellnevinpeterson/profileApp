@@ -1,0 +1,41 @@
+/*Adding margin to the radio buttons and inputs*/
+input {
+	margin: 7px;
+}
+/*changing the cursor when hovering over buttons*/
+button:hover {
+	cursor: pointer;
+}
+/*underlining the text on all h5 tags*/
+h5 {
+	text-decoration: underline;
+}
+/*making the text bold on all h1 tags*/
+h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+/*adding a border to all h2 tags*/
+h2 {
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+/*creating a class to show that the user failed to put in the correct information*/
+.failure {
+	border: 2px solid #ff3300;
+	width: 100%;
+	border-radius: 3px;
+}
+.textFailure {
+	color: #ff3300;
+	font-size: 1.5em;
+}
+/*creating a class for success if user puts in all the information required*/
+.success {
+	color: #00cc00;
+}
+/*adding margin to all the h4 and h5 tags*/
+h4,
+h6 {
+	margin: 20px;
+}
